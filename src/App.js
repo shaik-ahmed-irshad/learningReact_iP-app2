@@ -41,6 +41,7 @@ function App() {
       {loading && <Loading />}
       <center>
         <div className="table-responsive">
+          <h1>My Todos!</h1>
           <button onClick={filterTodos}>Task Filter</button>
           <table className="table table-primary">
             <thead>
